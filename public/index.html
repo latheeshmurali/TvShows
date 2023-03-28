@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show List</title>
+    <link rel="icon" href="../images/favicon-16x16.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="headerpic"></div>
+          <div class="title"><h1>TV Show List</h1></div>
+        </div>
+        <div class="col-md-12 align-items-center">
+          <img
+            class="profilepic"
+            src="../images/profile.png"
+            alt="profilepic"
+          />
+          <p class="author">Kaz Brekker</p>
+        </div>
+      </div>
+    </div>
+
+    <!--time-->
+    <section class="time">
+      <div class="dytime">
+        <div class="time-text"><span>Total Time Spent</span></div>
+        <div class="time-num"><span id="ti">0 days, 0 hours, 0 minutes</span></div>
+      </div>
+    </section>
+
+    <!-- body section -->
+    <section id="body">
+      <!--first series-->
+      <div class="card-group">
+        <div class="card flex-row">
+          <div>
+            <img
+              src="https://static.tvmaze.com/uploads/images/medium_portrait/226/565018.jpg"
+              class="rounded img-fluid"
+              alt="..."
+            />
+            <div>
+              <select name="Season" class="season" id="mov-1">
+                <option value="select">Season</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card-body" id="mt-1">
+            <div class="series-title">
+              <h5 class="card-title">The Witcher</h5>
+              <a class="link" href="https://www.netflix.com/title/80189685"
+                >Premiered at Netflix on 20/12/2019 (Running)</a
+              >
+            </div>
+            <div>
+              <p class="card-text">
+                Based on the best-selling fantasy series, The Witcher is an epic
+                tale of fate and family. Geralt of Rivia, a solitary monster
+                hunter, struggles to find his place in a world where people
+                often prove more wicked than beasts. But when destiny hurtles
+                him toward a powerful sorceress, and a young princess with a
+                dangerous secret, the three must learn to navigate the
+                increasingly volatile Continent together.
+              </p>
+            </div>
+            <div class="genre">
+              <span>Genre: </span>
+              <span class="subgenre"> Drama </span>
+              <span class="subgenre"> Action </span>
+              <span class="subgenre"> Fantasy </span>
+            </div>
+            <div id="m-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second series -->
+      <div class="card-group">
+        <div class="card flex-row">
+          <div>
+            <img
+              src="https://static.tvmaze.com/uploads/images/medium_portrait/0/2400.jpg"
+              class="rounded img-fluid"
+              alt="..."
+            />
+            <div>
+              <select name="Season" class="season" id="mov-2">
+                <option value="select">Season</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card-body mt-2">
+            <div class="series-title">
+              <h5 class="card-title">Breaking Bad</h5>
+              <a class="link" href="http://www.amc.com/shows/breaking-bad"
+                >Premiered at AMC on 20/01/2008 (Ended)</a
+              >
+            </div>
+            <div>
+              <p class="card-text">
+                Breaking Bad follows protagonist Walter White, a chemistry
+                teacher who lives in New Mexico with his wife and teenage son
+                who has cerebral palsy. White is diagnosed with Stage III cancer
+                and given a prognosis of two years left to live. With a new
+                sense of fearlessness based on his medical prognosis, and a
+                desire to secure his family's financial security, White chooses
+                to enter a dangerous world of drugs and crime and ascends to
+                power in this world. The series explores how a fatal diagnosis
+                such as White's releases a typical man from the daily concerns
+                and constraints of normal society and follows his transformation
+                from mild family man to a kingpin of the drug trade.
+              </p>
+            </div>
+            <div class="genre">
+              <span>Genre: </span>
+              <span class="subgenre"> Drama </span>
+              <span class="subgenre"> Crime </span>
+              <span class="subgenre"> Thriller </span>
+            </div>
+            <div id="m-2"></div>
+          </div>
+        </div>
+      </div>
+      <!-- third series -->
+      <div class="card-group">
+        <div class="card flex-row">
+          <div>
+            <img
+              src="https://static.tvmaze.com/uploads/images/medium_portrait/190/476117.jpg"
+              class="rounded img-fluid"
+              alt="..."
+            />
+            <div>
+              <select name="Season" class="season" id="mov-3">
+                <option value="select">Season</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card-body mt-3">
+            <div class="series-title">
+              <h5 class="card-title">Game of Thrones</h5>
+              <a class="link" href="http://www.hbo.com/game-of-thrones"
+                >Premiered at HBO on 17/04/2011 (Ended)</a
+              >
+            </div>
+            <div>
+              <p class="card-text">
+                Based on the best-selling fantasy series, The Witcher is an epic
+                tale of fate and family. Geralt of Rivia, a solitary monster
+                hunter, struggles to find his place in a world where people
+                often prove more wicked than beasts. But when destiny hurtles
+                him toward a powerful sorceress, and a young princess with a
+                dangerous secret, the three must learn to navigate the
+                increasingly volatile Continent together.
+              </p>
+            </div>
+            <div class="genre">
+              <span>Genre: </span>
+              <span class="subgenre"> Drama </span>
+              <span class="subgenre"> Adventure </span>
+              <span class="subgenre"> Fantasy </span>
+            </div>
+            <div id="m-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="const.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

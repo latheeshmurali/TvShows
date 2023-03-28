@@ -1,0 +1,180 @@
+/*header section */
+
+.header {
+  text-align: center;
+}
+
+.headerpic {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+  background-size: cover;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}
+
+.title {
+  position: absolute;
+  top: 190px;
+  left: 725px;
+  font-size: 36px;
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  color: white;
+}
+
+.author {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+/* Body section */
+
+#body {
+  padding: 5px 20%;
+}
+
+.card-group{
+    margin: 50px auto;
+}
+.card-header {
+  text-align: center;
+}
+
+
+
+.rounded {
+  margin: 15px;
+  object-fit: cover;
+  height: 13%;
+  width: 108%;
+  display: flex;
+  margin-left: 15px;
+}
+
+.season {
+  margin: 15px;
+  position: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(66, 180, 214, 0.05);
+  border-color: rgb(66, 180, 214, 0.5);
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+.card-title {
+  margin: auto 15px 15px;
+  font-size: 36px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  
+}
+
+.link{
+    margin: auto 15px 15px;
+    text-decoration: none; 
+}
+
+.card-text {
+  margin: auto 15px 15px 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+}
+
+.genre {
+  margin: 15px 15px auto;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+.subgenre {
+    color: rgb(230, 181, 11);
+    background-color: rgb(230, 181, 11,0.1);
+    font-size: 16px;
+    margin: auto 2.5px;
+}
+
+.season-dropdown {
+  display: flex;
+  margin: 15px;
+}
+
+.season-rest{
+  margin: auto 15px;
+}
+
+.season-img{
+  width: 12rem;
+  
+  border-radius: 10px;
+}
+
+label{
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.17em;
+  color: rgb(51,51,51);
+}
+
+.season-date{
+  margin-bottom: 0%;
+  color: gray;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.season-description{
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(51,51,51);
+}
+
+.season-num{
+  font-family: "Roboto Slab", serif;
+  color: rgb(66, 180, 214);
+  font-weight: bold;
+  font-size: 27px;
+  margin-left: 15px;
+}
+
+.marcar-todos{
+  margin-left: 15px;
+
+}
+
+.mar{
+  margin-left: 7.5px;
+  font-weight: normal;
+}
+
+.dytime{
+  padding: 5px 20%;
+  display: flex;
+  font-family: "Roboto Slab", serif;
+  font-size: 27px;
+  font-weight: bold;
+  color:  rgb(51, 51, 51);
+}
+
+.time-num{
+  margin-left: 41%;
+}
